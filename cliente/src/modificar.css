@@ -1,0 +1,53 @@
+.Modificar-main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Modificar-main div{
+    width: max-content;
+    background-color: grey;
+    color: white;
+    padding: 1.5vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border-radius: 10px;
+}
+
+.Modificar-main div h4{
+    text-align: center;
+}
+
+.Modificar-main div form{
+    display: flex;
+    height: 5vh;
+}
+
+.Modificar-main div form label{
+    padding-right: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.Modificar-main div form span{
+    flex-grow: 1;
+}
+
+.Modificar-main div form span input{
+    position: relative;
+    width: 70%;
+    border: none;
+    padding-left: 2px;
+    height: 100%;
+}
+.Modificar-main div form span button{
+    width: 30%;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    height: 100%;
+}
