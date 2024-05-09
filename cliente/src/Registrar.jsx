@@ -61,19 +61,19 @@ export const Registrar = () => {
           <form onSubmit={manejFormu}>
               <div>
                   <label htmlFor="nombre">Nombre(s)</label>
-                  <input type="text" id='nombre'placeholder='Ingresa tu(s) nombre' onChange={(e)=>setNombre(e.target.value)}/>
+                  <input required type="text" id='nombre'placeholder='Ingresa tu(s) nombre' onChange={(e)=>setNombre(e.target.value)}/>
               </div>
               <div>
                   <label htmlFor="apellido">Apellido(s)</label>
-                  <input type="text" id='apellido'placeholder='Ingresa tu(s) apellido' onChange={(e)=>setApellido(e.target.value)}/>
+                  <input required type="text" id='apellido'placeholder='Ingresa tu(s) apellido' onChange={(e)=>setApellido(e.target.value)}/>
               </div>
               <div>
                   <label htmlFor="email">Email</label>
-                  <input type="email" id='email'placeholder='Correo electronico' onChange={(e)=>setEmail(e.target.value)}/>
+                  <input required type="email" id='email'placeholder='Correo electronico' onChange={(e)=>setEmail(e.target.value)}/>
               </div>
               <div>
                   <label htmlFor="telefono">Telefono</label>
-                  <input type="tel" id='telefono'placeholder='Telefono Celular' onChange={(e)=>setTelefono(e.target.value)}/>
+                  <input required type="tel" id='telefono'placeholder='Telefono Celular' onChange={(e)=>setTelefono(e.target.value)}/>
               </div>
               <button>Guardar</button>
           </form>
